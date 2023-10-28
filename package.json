@@ -1,0 +1,13 @@
+{
+
+  "dependencies": {},
+
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.24"
+  },
+"scripts": {
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "docs:deploy": "bash deploy.sh"
+  }
+}
